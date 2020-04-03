@@ -1,14 +1,60 @@
 :root {
-    --main-color-nav: yellow;
+    --main-color-nav: #333;
     --main-color-bg: lightgrey;
+    --main-color-white: white;
 }
 
 body  {
     margin: 0;
     padding: 0;
     background: var(--main-color-bg);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
+    background: var(--main-color-bg);
+}
+
+/* navbar */
+
+#nav-bar {
+    /*
+    position: fixed;
+    top: 0;
+    */
+    display: flex;
+    width: 40vw;
+}
+
+#header-img {
+    width: 40%;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background: var(--main-color-nav);
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: right;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--main-color-white);
+}
+
+/* logo */
+
+.logo {
+    width: 60vw;
 }
