@@ -1,0 +1,14 @@
+:root {
+    --main-color-nav: yellow;
+    --main-color-bg: lightgrey;
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    background: var(--main-color-bg);
+}
+
+#header {
+    background: var(--main-color-nav);
+}
