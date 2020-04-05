@@ -120,3 +120,15 @@ li {
      padding-top: 1rem;
 
  }
+
+ /* how section */
+
+ #how-section {
+
+    margin-top: 5rem;
+ }
+
+ .video {
+     display: block;
+     margin: 0 auto;
+ }
