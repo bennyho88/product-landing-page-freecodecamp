@@ -70,6 +70,8 @@ li {
      margin-top: 5rem;
  }
 
+ /* contact section */
+
  #contact-section {
      text-align: center;
     background-color: yellow;
@@ -91,4 +93,30 @@ li {
      margin: 0 auto;
      margin-top: 1rem;
      padding: 05px 25px;
+ }
+
+ /* features section */
+
+ #features-section {
+     margin-top: 5rem;
+     
+ }
+
+ .grid {
+     display: flex;
+     width: 50vw;
+     margin: 0 auto;
+ }
+
+ .icon {
+     text-align: center;
+     width: 10vw;
+     padding: 1rem;
+ }
+
+ .description {
+     margin-left: 4rem;
+     padding-left: 2rem;
+     padding-top: 1rem;
+
  }
