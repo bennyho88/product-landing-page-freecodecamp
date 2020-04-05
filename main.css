@@ -74,7 +74,6 @@ li {
 
  #contact-section {
      text-align: center;
-    background-color: yellow;
  }
 
  #form {
@@ -132,3 +131,29 @@ li {
      display: block;
      margin: 0 auto;
  }
+
+ /* price section */
+
+ #price-section {
+     margin-top: 5rem;
+     display: flex;
+ }
+
+ .price-grid {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     width: 25vw;
+     border: 2px solid red;
+     padding: 2rem;
+     margin: 0 auto;
+ }
+
+ /* footer-section */
+
+ .footer-copy {
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ 
